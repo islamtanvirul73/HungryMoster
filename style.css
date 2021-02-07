@@ -1,0 +1,26 @@
+#showcase .card:hover {
+  cursor: pointer;
+}
+#showcase .card img {
+  transition: all 0.5s;
+}
+#showcase .card:hover img {
+  transform: scale(1.02);
+}
+.fas {
+  color: #f06c4e;
+}
+#menu-details ul li {
+  list-style: none;
+  margin: 3px 0px;
+}
+#menu-details ul {
+  margin: 0;
+  padding: 0;
+}
+#menu-details .card {
+  width: 38%;
+}
+#menu-details {
+  display: block;
+}
