@@ -133,7 +133,8 @@ const AppCtrl=(function(UICtrl,DataCtrl){
 
                 //Get List of Meal
                 const listOfMeal=DataCtrl.getListOfMeal();
-
+                //Clear Display
+                UICtrl.clearUI();
                 //Display in UI
                 UICtrl.populateMeal(listOfMeal);
             }
