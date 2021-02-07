@@ -150,11 +150,9 @@ const AppCtrl=(function(UICtrl,DataCtrl){
         if(e.target.parentElement.className=="card"){
             //Get index of that reciepe
             const id=  e.target.parentElement.id.split("-")[1];
-            console.log(id)
             //Get meal from Internal Data Structure
             const meal=DataCtrl.getMealByID(id);
             //Write on UI
             UICtrl.setMealDetails(meal)
-            console.log(meal)
         }}   
 })(UICtrl,DataCtrl);
